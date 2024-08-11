@@ -278,4 +278,5 @@ aside ul li a:hover{
     .home .image {
         margin-right: 20px;
     }
+    aside{display: none}
 }
