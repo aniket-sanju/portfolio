@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="CV/sanjit.png">
+    <title>Portfolio</title>
+    <meta name="description" content="this ia a Portfolio website of Aniket Kumar to know about him.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="Home" class="navbar">
+            <h1>Portfolio.</h1>
+            <div class="toggle fa-solid fa-bars" onclick="toggleMenu()"></div>
+            <div class="collapse">
+                <nav >
+                    <ul id="menuList">
+                        <li class="active"><a href="#">Home <span></span></a></li>
+                       <li><a href="#">About <span></span></a></li>
+                        <li><a href="#">Service <span></span></a></li>
+                        <li><a href="#">Portfolio <span></span></a></li>
+                        <li><a href="#">Contact <span></span></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <aside>
+                <ul>
+                    <li><a href="#Home" aria-label="icon"><i class="fa-solid fa-house-chimney"></i></a></li>
+                    <li><a href="#About" aria-label="icon"><i class="fa-solid fa-user-tie"></i></a></li>
+                    <li><a href="#Service" aria-label="icon"><i class="fa-brands fa-servicestack"></i></a></li>
+                    <li><a href="#Portfolio" aria-label="icon"><i class="fa-solid fa-briefcase"></i></a></li>
+                    <li><a href="#Contact" aria-label="icon"><i class="fa-solid fa-id-badge"></i></a></li>
+                </ul>
+            </aside>
+        </div>
+    </header>
+    <section class="home">
+      <div class="home-content col-6">
+        <h3>Hello,It's Me.</h3>
+        <h2>Aniket Kumar Singh</h2>
+        <h3>I am a <span id="loops">Frontend Developer</span></h3>
+        <p>The company itself is a very successful company. I will come and be chosen, it will be very small for us here. He does not want any trouble from the laborious, but the right architect no pleasure from even, the most worthy of desire!</p>
+        <p>The company itself is a very successful company. Are we ever harsher than we deserve, because no one will accept the pleasures of the right way, because by rejecting them, the easy-minded want their troubles? Life, but.</p>
+        <ul class="media-icon">
+            <li><a href="https://x.com/" aria-label="social-icon"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://www.facebook.com/login" aria-label="social-icon"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="https://www.instagram.com/accounts/login" aria-label="social-icon"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://github.com/" aria-label="social-icon"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+        <div class="button">
+            <a class="btn" href="CV/Aniket%20Resume-2.pdf">Download Resume</a>
+            <a class="btn" href="https://mail.google.com/mail/u/0/#sent">Hire Me</a>
+        </div>
+      </div>    
+      <div class="image col-4">
+        <img src="CV/sanjit.webp" alt="aniket" width="350" height="350" >
+      </div>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
