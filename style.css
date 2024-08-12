@@ -279,5 +279,10 @@ aside ul li a:hover{
         margin-right: 20px;
     }
     aside{display: none}
-    .para-2{display:none}
+}
+
+@media screen and (max-width:480px) {
+    .col-s-8{flex-basis: 66.66%; max-width: 66.66%;}
+    .home{flex-wrap: nowrap;}
+    .para-2{display: none;}
 }
